@@ -1,0 +1,110 @@
+.countryInfo {
+  padding: 50px 0;
+}
+
+@media (max-width: 767px) {
+  .countryInfo {
+    padding: 30px 0;
+  }
+}
+
+.btnShap {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#back {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  padding: 10px 25px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  line-height: 1.6;
+}
+
+.info img {
+  width: 40%;
+}
+
+@media (max-width: 991px) {
+  .info img {
+    max-height: 200px;
+  }
+}
+
+.info > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.info > div p.countryName {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.info > div .details {
+  display: flex;
+  gap: 50px;
+}
+
+@media (max-width: 767px) {
+  .info {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .info img {
+    width: 100%;
+    max-height: max-content;
+  }
+
+  .info > div {
+    gap: 30px;
+  }
+
+  .info .details {
+    flex-direction: column;
+  }
+}
+
+.info > div .details ul {
+}
+
+.info > div .details ul li {
+  font-weight: 600;
+}
+
+.info > div .details ul li span {
+  font-weight: normal;
+}
+
+.info > div .borders {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info > div .borders p {
+  font-weight: 900;
+}
+
+.info > div .borders ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.info > div .borders ul li {
+  font-size: 14px;
+}

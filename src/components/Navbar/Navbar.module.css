@@ -1,0 +1,19 @@
+.navbar {
+  height: 70px;
+  line-height: 70px;
+}
+.navbar > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  height: 100%;
+}
+.navbar .designMood {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  user-select: none;
+}

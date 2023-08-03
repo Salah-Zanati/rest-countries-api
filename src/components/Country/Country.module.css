@@ -1,0 +1,34 @@
+.country {
+  height: 320px;
+  border-radius: 5px;
+}
+
+.country img {
+  display: block;
+  color: black;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+.country .details {
+  padding: 15px 25px;
+}
+
+.country .details .countryName {
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.country .details ul li {
+  margin-bottom: 5px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.country .details ul li span {
+  font-weight: 300;
+}
