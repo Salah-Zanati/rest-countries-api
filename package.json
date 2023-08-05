@@ -1,4 +1,5 @@
 {
+  "homepage": "https://salah-zanati.github.io/rest-countries-api",
   "name": "rest-countries-api",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,6 +46,12 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "@babel/core": "^7.10.1",
+    "@babel/node": "^7.10.1",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1"
   }
 }
