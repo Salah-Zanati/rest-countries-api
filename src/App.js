@@ -58,7 +58,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route
-            path="rest-countries-api-with-color-theme-switcher-master"
+            path="rest-countries-api"
             element={
               <>
                 <Outlet />
